@@ -3,7 +3,7 @@
 # Run `pod lib lint flutter_meta_data.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_meta_data'
+  s.name             = 'flutter_android_meta_data'
   s.version          = '0.0.1'
   s.summary          = 'Flutter read Android meta.'
   s.description      = <<-DESC

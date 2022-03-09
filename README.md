@@ -1,4 +1,4 @@
-# flutter_meta_data
+# flutter_android_meta_data
 
 Flutter get Android <meta-data> in AndroidManifest.xml.
 

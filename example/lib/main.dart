@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_meta_data/flutter_meta_data.dart';
+import 'package:flutter_android_meta_data/flutter_android_meta_data.dart';
 
 void main() {
   runApp(const MyApp());
