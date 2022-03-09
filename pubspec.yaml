@@ -1,7 +1,7 @@
 name: flutter_meta_data
 description: Flutter read Android meta.
 version: 0.0.1
-homepage:
+homepage: https://github.com/LoquatZ/flutter_meta_data
 
 environment:
   sdk: ">=2.16.1 <3.0.0"
