@@ -1,10 +1,26 @@
 # flutter_meta_data
 
-Flutter Meta-data.
+Flutter get Android <meta-data> in AndroidManifest.xml.
 
 ## Use
 
+### In AndroidManifest.xml.
+
+```xml
+<meta-data android:name="YOUR_CHANNEL" android:value="test" />
 ```
-    String mateDate = await FlutterMetaData.getMetaDataValue("Your Channel");
-    print(mateDate);
+
+``` dart
+    Future<void> initMateDataState() async {
+        String mateData;
+        try {
+          mateData = await FlutterMetaData.getMetaDataValue("Your Channel");
+        } on PlatformException {
+          mateData = 'Failed to get mata data.';
+        }
+    }
 ```
+
+---
+
+### This Plugin only used for `Android` the `iOS` return `NULL`

@@ -27,10 +27,7 @@ class FlutterMetaDataPlugin: FlutterPlugin, MethodCallHandler {
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
     when (call.method) {
-      "getPlatformVersion" -> {
-        result.success("Android ${android.os.Build.VERSION.RELEASE}")
-      }
-      //获取AndroidMateData
+      //获取Android MateData
       "getMetaDataValue" -> {
         var metaDataValue: String
         try {

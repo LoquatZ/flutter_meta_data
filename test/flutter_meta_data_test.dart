@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await FlutterMetaData.platformVersion, '42');
+    expect(await FlutterMetaData.getMetaDataValue("channel"), '42');
   });
 }
