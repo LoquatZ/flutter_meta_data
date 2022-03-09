@@ -1,6 +1,6 @@
 # flutter_android_meta_data
 
-Flutter get Android <meta-data> in AndroidManifest.xml.
+Flutter get Android `<meta-data>` in AndroidManifest.xml.
 
 ## Use
 
@@ -23,4 +23,4 @@ Flutter get Android <meta-data> in AndroidManifest.xml.
 
 ---
 
-### This Plugin only used for `Android` the `iOS` return `NULL`
+### This Plugin only used for `Android` , The `iOS` return `NULL`
